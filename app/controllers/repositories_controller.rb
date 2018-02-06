@@ -15,3 +15,5 @@ class RepositoriesController < ApplicationController
   @results = body["items"]
   render 'search'
 end
+
+end
